@@ -1,0 +1,98 @@
+/* Composición corporativa. Fundamentos y componentes heredados de GoBuilder. */
+.corporate-home .corporate-hero { padding-bottom: 18px; }
+.corporate-home .hero-copy { max-width: 1120px; }
+.corporate-home .hero-intro { max-width: 870px; }
+.corporate-home .hero .eyebrow { letter-spacing: .6px; }
+.corporate-home .corporate-paths { display: grid; gap: 14px; margin-top: 42px; text-align: left; }
+.corporate-home .corporate-path { position: relative; display: flex; flex-direction: column; align-items: flex-start; min-width: 0; min-height: 186px; padding: 24px; border-radius: 22px; background: var(--navy); color: var(--paper); text-decoration: none; transition: box-shadow .2s ease; }
+.corporate-home .path-number { font-size: 12px; color: var(--sky); }
+.corporate-home .corporate-path strong { margin-top: 24px; font-size: 31px; line-height: 1.1; font-weight: 600; letter-spacing: -1px; }
+.corporate-home .corporate-path > .icon { position: absolute; top: 24px; right: 24px; width: 30px; height: 30px; }
+.corporate-home .corporate-path:nth-child(2) { background: var(--sky); color: var(--navy); }
+.corporate-home .corporate-path:nth-child(2) .path-number { color: var(--navy); }
+.corporate-home .corporate-path:nth-child(3) { background: var(--paper); color: var(--navy); }
+.corporate-home .corporate-path:nth-child(3) .path-number { color: var(--purple); }
+.corporate-home .corporate-path:hover { box-shadow: inset 0 0 0 2px currentColor; }
+.corporate-home .corporate-path:first-child:focus-visible { outline-color: var(--sky); }
+.corporate-home .corporate-capabilities { padding-bottom: 0; }
+.corporate-home .corporate-capabilities .section-heading { margin-bottom: 36px; }
+.corporate-home .corporate-solution .section-heading { max-width: 760px; }
+.corporate-home .corporate-product-art { display: flex; flex-direction: column; justify-content: space-between; gap: 44px; min-width: 0; min-height: 330px; padding: 28px; border-radius: 26px; background: var(--navy); color: var(--paper); }
+.corporate-home .product-art-label { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 12px; color: var(--sky); }
+.corporate-home .product-art-name { color: var(--paper); font-size: clamp(42px, 7vw, 76px); line-height: 1; letter-spacing: -2.6px; font-weight: 600; }
+.corporate-home .product-art-name span { display: block; margin-top: 8px; font-size: .45em; color: var(--sky); letter-spacing: -.8px; }
+.corporate-home .product-art-areas { display: flex; flex-wrap: wrap; gap: 10px 22px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--sky); }
+.corporate-home .product-copy h3 { font-size: 29px; }
+.corporate-home .feature-card { display: flex; flex-direction: column; }
+.corporate-home .feature-card > p { margin-top: 18px; color: inherit; opacity: .9; font-size: 15px; }
+.corporate-home .feature-card .text-link { justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 26px; color: inherit; font-size: 13px; }
+.corporate-home .feature-card .text-link .icon { width: 20px; height: 20px; }
+.corporate-home .corporate-development { padding-bottom: 0; }
+.corporate-home .corporate-development .pricing-panel h2 { margin-top: 18px; font-size: clamp(33px, 3.7vw, 51px); }
+.corporate-home .corporate-development .pricing-panel p:not(.eyebrow) { font-size: 16px; }
+.corporate-home .corporate-web { padding-top: var(--space-section); }
+.corporate-home .corporate-web .button { margin-top: 30px; }
+.corporate-home .corporate-web-list { display: grid; list-style: none; }
+.corporate-home .corporate-web-list li { display: flex; align-items: baseline; gap: 18px; padding-block: 22px; border-top: 1px solid var(--border); }
+.corporate-home .corporate-web-list li:first-child { border: 0; }
+.corporate-home .corporate-web-list li > span { flex: 0 0 auto; font-size: 12px; color: var(--sky); }
+.corporate-home .corporate-web-list h3 { font-size: 20px; }
+.corporate-home .corporate-web-list li:last-child > span { color: var(--purple-light); }
+.corporate-home .corporate-process { padding-top: var(--space-section); padding-bottom: 0; }
+.corporate-home .corporate-partners { padding-bottom: 0; }
+.corporate-home .corporate-partners-grid { display: grid; align-items: start; gap: 28px; padding-block: 40px; border-block: 1px solid var(--border); }
+.corporate-home .corporate-partners .text-link { margin-top: 22px; font-size: 14px; }
+.corporate-home .corporate-resource-panel { display: grid; gap: 28px; padding: 30px 26px; border-radius: 26px; background: var(--surface); }
+.corporate-home .resource-icon { width: 54px; height: 54px; color: var(--blue); }
+.corporate-home .corporate-resource-panel h2 { max-width: 760px; }
+.corporate-home .corporate-resource-panel p:not(.eyebrow) { max-width: 790px; margin-top: 20px; }
+.corporate-home .corporate-resource-panel .availability-note { font-size: 13px; color: var(--muted); }
+.corporate-home .corporate-resource-panel .text-link { margin-top: 20px; }
+.corporate-home .footer-brand-name { font-weight: 600; color: var(--navy); }
+.corporate-home .footer-language { display: inline-block; margin-top: 22px; color: var(--muted); font-size: 12px; }
+.corporate-home .footer-brand .brand-official img { width: 132px; height: 66px; }
+.corporate-home section[tabindex]:focus, .corporate-home .corporate-web-list:focus { outline: 0; }
+
+@media (min-width: 480px) {
+  .corporate-home .corporate-path { min-height: 200px; padding: 20px; }
+  .corporate-home .corporate-path strong { font-size: 24px; }
+  .corporate-home .corporate-path > .icon { top: 18px; right: 18px; width: 24px; height: 24px; }
+}
+@media (min-width: 768px) {
+  .corporate-home .corporate-paths { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 56px; }
+  .corporate-home .corporate-path { padding: 26px; min-height: 220px; }
+  .corporate-home .corporate-path strong { font-size: 29px; margin-top: 36px; }
+  .corporate-home .corporate-path > .icon { top: 24px; right: 24px; }
+  .corporate-home .corporate-product-art { min-height: 410px; padding: 36px; }
+  .corporate-home .product-art-name { font-size: 50px; }
+  .corporate-home .corporate-partners-grid { grid-template-columns: 1fr 1fr; gap: 60px; padding-block: 50px; }
+  .corporate-home .corporate-resource-panel { grid-template-columns: 70px minmax(0, 1fr); gap: 40px; padding: 44px; }
+}
+@media (min-width: 1024px) {
+  .corporate-home .main-nav { gap: 2px; }
+  .corporate-home .main-nav .nav-direct, .corporate-home .main-nav .nav-dropdown > summary { font-size: 12px; }
+  .corporate-home .corporate-contact-link { display: none; }
+  .corporate-home .header-cta { gap: 12px; margin-left: 0; padding-left: 16px; font-size: 12px; }
+  .corporate-home .nav-home { display: flex; }
+  .corporate-home .corporate-path { min-height: 246px; padding: 32px; }
+  .corporate-home .corporate-path strong { font-size: 38px; }
+  .corporate-home .corporate-path > .icon { top: 30px; right: 30px; width: 30px; height: 30px; }
+  .corporate-home .product-art-name { font-size: 66px; }
+  .corporate-home .corporate-development .pricing-panel { gap: 48px; }
+  .corporate-home .corporate-web .difference-grid { gap: 64px; }
+}
+@media (min-width: 1280px) {
+  .corporate-home .main-nav { gap: 8px; }
+  .corporate-home .main-nav .nav-direct, .corporate-home .main-nav .nav-dropdown > summary { font-size: 13px; }
+  .corporate-home .corporate-contact-link { display: inline-flex; }
+  .corporate-home .header-cta { font-size: 13px; }
+  .corporate-home .corporate-paths { margin-top: 62px; }
+  .corporate-home .corporate-path { min-height: 265px; padding: 34px; }
+  .corporate-home .corporate-path strong { font-size: 43px; }
+  .corporate-home .product-art-name { font-size: 80px; }
+  .corporate-home .corporate-product-art { padding: 42px; min-height: 440px; }
+  .corporate-home .corporate-resource-panel { padding: 56px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .corporate-home .corporate-path { transition: none; }
+}

@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "date": "2026-10-16",
+  "reference": "https://overtake-wbs.framer.website/",
+  "palette": {
+    "navy": "#07182e",
+    "blue": "#0062c6",
+    "lightBlue": "#a9def5",
+    "white": "#ffffff",
+    "purple": "#6b46a8"
+  },
+  "responsive": [
+    {
+      "clientWidth": 305,
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        }
+      ],
+      "menuVisible": true,
+      "navVisible": false,
+      "overflow": false,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        }
+      ],
+      "menuVisible": true,
+      "navVisible": false,
+      "overflow": false,
+      "scrollWidth": 360,
+      "width": 375
+    },
+    {
+      "clientWidth": 753,
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        }
+      ],
+      "menuVisible": true,
+      "navVisible": false,
+      "overflow": false,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "clientWidth": 1009,
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        }
+      ],
+      "menuVisible": false,
+      "navVisible": true,
+      "overflow": false,
+      "scrollWidth": 1009,
+      "width": 1024
+    },
+    {
+      "clientWidth": 1425,
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/gonet-logo.jpeg"
+        }
+      ],
+      "menuVisible": false,
+      "navVisible": true,
+      "overflow": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    }
+  ],
+  "contrast": {
+    "elements": 218,
+    "failures": [],
+    "minimum": 5.2
+  },
+  "menus": [
+    {
+      "open": [
+        "Funcionalidades"
+      ],
+      "overflow": false
+    },
+    {
+      "open": [
+        "Soluciones"
+      ],
+      "overflow": false
+    },
+    {
+      "open": [
+        "Servicios"
+      ],
+      "overflow": false
+    },
+    {
+      "open": [
+        "Recursos"
+      ],
+      "overflow": false
+    },
+    {
+      "open": [
+        "Cuenta"
+      ],
+      "overflow": false
+    }
+  ],
+  "mobileMenu": {
+    "expanded": "true",
+    "openSubmenus": 1,
+    "overflow": false
+  },
+  "faq": [
+    {
+      "faq": 1,
+      "passed": true
+    },
+    {
+      "faq": 2,
+      "passed": true
+    },
+    {
+      "faq": 3,
+      "passed": true
+    },
+    {
+      "faq": 4,
+      "passed": true
+    },
+    {
+      "faq": 5,
+      "passed": true
+    },
+    {
+      "faq": 6,
+      "passed": true
+    }
+  ],
+  "routes": [
+    {
+      "brandStyles": true,
+      "h1": "Gestión financiera",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/gestion-financiera/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Gestión operativa",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/gestion-operativa/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Gestión documental",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/gestion-documental/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "GoBuilder ERP",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/gobuilder-erp/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Desarrollo a medida",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/custom-development/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Programa Partners",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/become-partner/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Planes y precios",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/precios/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Centro de ayuda",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/soporte/",
+      "preparation": true
+    },
+    {
+      "brandStyles": true,
+      "h1": "Contacto",
+      "logoLoaded": true,
+      "overflow": false,
+      "path": "/contacto/",
+      "preparation": true
+    }
+  ],
+  "console": []
+}
